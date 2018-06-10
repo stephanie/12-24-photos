@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.App.light {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.Header {
+  padding: 25px 0;
+  font-family: 'Rock Salt', serif;
+}
+
+.navigation {
+  text-align: right;
+}
+
+.light .link {
+  color: aliceblue;
+}
+
+.link {
+  text-decoration: none;
+  color: lightslategray;
+  font-size: 14px;
+  margin-left: 25px;
+}
+
+.pageTitle {
+  font-size: 32px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding-bottom: 50px;
+}

@@ -1,0 +1,36 @@
+.imageContainer {
+    cursor: pointer;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+
+.imageTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 1;
+    font-family: 'Rock Salt', serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 25px;
+}
+
+.imageContainer:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+
+.imageContainer.dark:after {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.imageContainer.light:after {
+    background: rgba(255, 255, 255, 0.5);
+}
